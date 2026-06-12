@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BUCC FOOTBALL</title>
+    <link rel="stylesheet" href="./form.css" />
+  </head>
+  <body>
+    <h1>BUCC FOOTBALL COMPETITION</h1>
+
+    <form method="post" action="form.php">
+      <div class="form">
+        <p>NAME: <input type="text" name="fullname" id="fullname" /></p>
+
+        <p>
+          LEVEL:
+          <select name="level" id="level">
+            <option value="100">100</option>
+            <option value="200">200</option>
+            <option value="300">300</option>
+            <option value="400">400</option>
+          </select>
+        </p>
+
+        <p>
+          GENDER:
+          <select name="gender" id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+        </p>
+
+        <p>SCHOOL: <input type="text" name="school" id="school" /></p>
+
+        <p>WEIGHT: <input type="number" name="weight" id="weight" /></p>
+
+        <p>
+          <input type="submit" name="submit" value="Submit" />
+          <input type="reset" value="Reset" />
+        </p>
+      </div>
+    </form>
+  </body>
+</html>
